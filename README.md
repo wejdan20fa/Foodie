@@ -380,31 +380,9 @@ flowchart TD
 
 ---
 
-## 💻 Source Code & Setup
+## ⚙️ Getting Started
 
-The Flutter and Dart source files are available in this repository. To run Foodie locally, configure your own Firebase project and API keys for Gemini and Spoonacular. See [SETUP.md](SETUP.md) for setup instructions.
-
----
-
-## 🧪 Development, Challenges and Testing
-
-Foodie was evaluated using **functional checks, non-functional checks, black-box testing and user testing**. Participants tried practical flows including ingredient photography, alternative-ingredient and lunch-box suggestions, profile editing and personalized recommendations.
-
-### ⚙️ Engineering Challenges Addressed
-
-| Challenge encountered | Implementation approach |
-|---|---|
-| **Unstructured AI responses** | Adapted the API prompting and response handling so generated recipe information could be displayed in the application. |
-| **Ingredient identification and irrelevant responses** | Compared AI approaches and refined the output to focus on more relevant ingredient and recipe information. |
-| **Duplicate saved recipes** | Used recipe identifiers and checked existing favorites before saving another copy. |
-
-### 📊 User Testing Highlights
-
-- **Ingredient photography:** 77.8% of surveyed participants rated the feature *outstanding*.
-- **Allergy-aware recommendations:** 66.7% indicated high satisfaction with the feature.
-- **Functional validation:** Registration, recipe discovery, chat, personalized choices, profiles and administration were covered by functional test cases.
-
-*The percentages above are based on participant feedback collected during user testing.*
+To run Foodie locally, follow the instructions in [SETUP.md](SETUP.md) to install the required dependencies and configure Firebase, Gemini and Spoonacular.
 
 ---
 
